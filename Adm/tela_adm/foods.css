@@ -1,0 +1,73 @@
+body {
+    background-color: #006ace;
+    background-size: cover;
+    image-rendering: auto; /* ou image-rendering: high-quality; */
+  }
+  
+  h2 {
+    text-align: center;
+    color: rgb(255, 255, 255); /* Substitua "red" pela cor desejada */
+}
+
+  .ret {
+    image-rendering: auto; /* ou image-rendering: high-quality; */
+    background-color: #009dff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 800px; /* Altere o valor para ajustar a largura do retângulo */
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    backdrop-filter: blur(5px); /* Efeito de desfoque */
+  }
+    
+  .label-text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    font-weight: bold;
+    color: rgb(255, 255, 255); /* Substitua "red" pela cor desejada */
+  }
+  
+    label {
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      background-color: #f2f2f200;
+    }
+  
+  label input[type="text"],
+  label input[type="number"],
+  label input[type="date"],
+  label select {
+    flex: 1;
+    border: 3px solid rgb(255, 255, 255); /* Adiciona uma borda preta de 1 pixel */
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(241, 241, 228);
+  }
+  
+  
+    
+  
+    button[type="submit"] {
+      background-color: rgb(255, 255, 255);
+      border: none;
+      color: rgb(0, 0, 0);
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: block;
+      margin: 0 auto;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: transform 0.3s ease-in-out;
+    }
+    
+    button[type="submit"]:hover {
+      transform: scale(1.1);
+    }

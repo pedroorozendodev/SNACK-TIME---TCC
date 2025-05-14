@@ -1,0 +1,67 @@
+/* Definições gerais para o corpo da página */
+body {
+    height: 100vh; /* 100% da altura da viewport */
+    overflow: hidden; /* Oculta barras de rolagem quando não necessário */
+    font-family: "Poppins", sans-serif; /* Define a fonte principal */
+    background: #3d78f7; /* Cor de fundo azul */
+}
+
+/* Estilos para a página de login */
+.login-page {
+    width: 400px; /* Largura fixa da página de login */
+    padding: 8% 0 0; /* Adiciona um preenchimento superior de 8%, sem preenchimento nas laterais e inferior */
+    margin: auto; /* Centraliza a página horizontalmente */
+}
+
+/* Estilos para o formulário de login */
+.form {
+    background: #FFFFFF; /* Cor de fundo branca para o formulário */
+    max-width: 400px; /* Largura máxima do formulário */
+    margin: 0 auto 100px; /* Centraliza o formulário e adiciona uma margem inferior de 100px */
+    padding: 45px; /* Preenchimento interno do formulário */
+    text-align: center; /* Alinhamento central do texto no formulário */
+    border-radius: 15px; /* Borda arredondada do formulário */
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); /* Sombra do formulário */
+}
+
+/* Estilos para os campos de entrada no formulário */
+.form input {
+    background: #f2f2f2; /* Cor de fundo cinza claro para os campos de entrada */
+    width: 100%; /* Largura total do elemento */
+    border: 0; /* Remove a borda */
+    border-radius: 7px; /* Borda arredondada */
+    margin: 0 0 15px; /* Margem inferior de 15px */
+    padding: 15px; /* Preenchimento interno dos campos de entrada */
+    box-sizing: border-box; /* Garante que a largura e altura incluam preenchimento e borda */
+    font-size: 14px; /* Tamanho da fonte */
+}
+
+/* Estilos para o botão de envio no formulário */
+.form button {
+    background: #3d78f7; /* Cor de fundo azul */
+    width: 100%; /* Largura total do botão */
+    border: 0; /* Remove a borda */
+    padding: 15px; /* Preenchimento interno do botão */
+    color: #FFFFFF; /* Cor do texto branco */
+    border-radius: 7px; /* Borda arredondada */
+    font-size: 14px; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor ao pairar sobre o botão */
+}
+
+/* Estilos para o botão de envio quando hover, active ou focado */
+.form button:hover, .form button:active, .form button:focus {
+    background: #3d78f7; /* Cor de fundo azul ao interagir com o botão */
+}
+
+/* Estilos para mensagens informativas abaixo do formulário */
+.form .message {
+    margin: 15px 0 0; /* Margem superior de 15px */
+    color: #b3b3b3; /* Cor do texto cinza claro */
+    font-size: 12px; /* Tamanho da fonte menor */
+}
+
+/* Estilos para links nas mensagens informativas */
+.form .message a {
+    color: #3d78f7; /* Cor do link azul */
+    text-decoration: none; /* Remove a sublinhado do link */
+}

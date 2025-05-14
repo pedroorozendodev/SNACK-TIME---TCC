@@ -1,0 +1,47 @@
+/* Reset de estilos e definições globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Container principal */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título principal */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Cartão de conteúdo */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+/* Botão de exclusão */
+.archive-btn {
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    padding: 10px 15px; /* Padding around the button text */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline from the link */
+    display: inline-block; /* Make the link a block element to allow styling */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.archive-btn:hover {
+    background-color: #45a049; /* Darker green color on hover */
+}

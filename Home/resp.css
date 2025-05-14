@@ -1,0 +1,50 @@
+/* Estilos responsivos */
+@media (max-width: 600px) {
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar a {
+        margin: 5px;
+        font-size: 12px;
+    }
+    .module.content .container {
+        padding: 0 10px;
+        font-size: 14px;
+    }
+    .module.parallax h1 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .parallax {
+        height: 200px;
+    }
+    .navbar {
+        justify-content: flex-start;
+    }
+    .navbar a {
+        font-size: 14px;
+    }
+    .module.content .container {
+        font-size: 16px;
+    }
+    .module.parallax h1 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 992px) {
+    .parallax {
+        height: 300px;
+    }
+    .navbar a {
+        margin: 5px 10px;
+    }
+    .module.parallax h1 {
+        font-size: 36px;
+    }
+}

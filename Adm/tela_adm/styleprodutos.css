@@ -1,0 +1,26 @@
+
+table {
+  border-collapse: collapse;
+  width: 100%; /* Defina a largura da tabela como 100% */
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-weight: normal;
+}
+
+th {
+  background-color: #3d78f7;
+  color: white;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #ddd;
+}

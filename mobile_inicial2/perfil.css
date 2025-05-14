@@ -1,0 +1,97 @@
+/* Definições gerais para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: flex;
+    flex-direction: column; /* Alteração para exibir os elementos em coluna */
+}
+
+/* Estilos para os links do menu lateral */
+#side-menu a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+/* Estilos para o cabeçalho principal */
+h1 {
+    color: #333;
+}
+
+/* Estilos para links em geral */
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+/* Estilos para links quando estão em estado hover (sobre eles) */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para o ícone do carrinho de compras */
+.cart-icon {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+/* Estilos para o container de produtos */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Estilos para os cartões de produto */
+.card {
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 48%; /* Altere para o valor desejado */
+}
+
+/* Estilos para as imagens de produto */
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Estilos para o menu lateral fixo */
+.sidemenu {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.1);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Estilos para os links do menu lateral */
+.sidemenu a {
+    color: #007BFF;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para ícones no menu lateral */
+.sidemenu i {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+/* No seu arquivo CSS (perfil.css) ou na seção de estilos do cabeçalho HTML */
+/* Estilos específicos para o título "Perfil do Usuário" */
+.profile-container h2 {
+    color: blue; /* Define a cor azul para o texto */
+    margin-left: 10%; /* Ajuste o valor conforme necessário */
+}
